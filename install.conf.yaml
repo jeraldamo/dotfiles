@@ -12,4 +12,5 @@
     ~/.antigen.zsh: antigen.zsh
     ~/.zshrc: zshrc
     ~/.config/zellij: zellij
+    ~/.config/nvim: nvim
 
