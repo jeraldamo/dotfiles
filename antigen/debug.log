@@ -1,0 +1,781 @@
+[WRN][1638338889.4374957085] /home/jerald/.antigen.zsh:266
+[WRN][1638338889.4374957085] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1638338889.4377651215] /home/jerald/.antigen.zsh:475
+[TRA][1638338889.4377651215] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1638338889.4377651215] TRACE
+-antigen-env-setup
+/home/jerald/.antigen.zsh
+.zshrc
+[TRA][1638338889.9177334309] /home/jerald/.antigen.zsh:808
+[TRA][1638338889.9177334309] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1638338889.9177334309] TRACE
+antigen-bundle
+antigen-theme
+antigen
+.zshrc
+[LOG][1638338890.9409861565] /home/jerald/.antigen.zsh:785
+[LOG][1638338890.9409861565] Called antigen-apply
+[TRA][1638338890.9411222935] /home/jerald/.antigen.zsh:789
+[TRA][1638338890.9411222935] Gonna create compdump file @ apply COMPDUMP
+[TRA][1638338890.9411222935] TRACE
+antigen-apply
+antigen
+.zshrc
+[WRN][1638339037.9166145325] /home/jerald/.antigen.zsh:266
+[WRN][1638339037.9166145325] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638339037.9168524742] /home/jerald/.antigen.zsh:1572
+[WRN][1638339037.9168524742] -antigen-lock-init return code was 0
+[LOG][1638339037.9168984890] /home/jerald/.antigen.zsh:1574
+[LOG][1638339037.9168984890] LOADED EXTENSION lock EXT
+[WRN][1638339037.9183845520] /home/jerald/.antigen.zsh:1684
+[WRN][1638339037.9183845520] Init parallel extension PARALLEL
+[WRN][1638339037.9184710979] /home/jerald/.antigen.zsh:266
+[WRN][1638339037.9184710979] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638339037.9185428619] /home/jerald/.antigen.zsh:1572
+[WRN][1638339037.9185428619] -antigen-parallel-init return code was 0
+[LOG][1638339037.9185838699] /home/jerald/.antigen.zsh:1574
+[LOG][1638339037.9185838699] LOADED EXTENSION parallel EXT
+[WRN][1638339037.9186251163] /home/jerald/.antigen.zsh:1692
+[WRN][1638339037.9186251163] Exec parallel extension PARALLEL
+[WRN][1638339037.9192035198] /home/jerald/.antigen.zsh:266
+[WRN][1638339037.9192035198] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638339037.9192776680] /home/jerald/.antigen.zsh:1572
+[WRN][1638339037.9192776680] -antigen-defer-init return code was 0
+[LOG][1638339037.9193170071] /home/jerald/.antigen.zsh:1574
+[LOG][1638339037.9193170071] LOADED EXTENSION defer EXT
+[WRN][1638339037.9203622341] /home/jerald/.antigen.zsh:266
+[WRN][1638339037.9203622341] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638339037.9205889702] /home/jerald/.antigen.zsh:1572
+[WRN][1638339037.9205889702] -antigen-cache-init return code was 0
+[LOG][1638339037.9206352234] /home/jerald/.antigen.zsh:1574
+[LOG][1638339037.9206352234] LOADED EXTENSION cache EXT
+[WRN][1638339037.9221768379] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9221768379] Updated meta: target antigen mode once type pre called 1
+[WRN][1638339037.9222457409] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9222457409] Processing hooks: antigen-lock
+[WRN][1638339037.9222865105] /home/jerald/.antigen.zsh:1487
+[WRN][1638339037.9222865105] Pre hook: antigen-lock theme romkatv/powerlevel10k
+[LOG][1638339037.9223248959] /home/jerald/.antigen.zsh:1658
+[LOG][1638339037.9223248959] antigen-lock called
+[WRN][1638339037.9223699570] /home/jerald/.antigen.zsh:1669
+[WRN][1638339037.9223699570] Creating antigen-lock file at /home/jerald/.antigen/.lock
+[WRN][1638339037.9269702435] /home/jerald/.antigen.zsh:1505
+[WRN][1638339037.9269702435] -antigen-hook-antigen theme romkatv/powerlevel10k
+[WRN][1638339037.9289522171] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9289522171] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1638339037.9291167259] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9291167259] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1638339037.9292101860] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9292101860] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1638339037.9293351173] /home/jerald/.antigen.zsh:1487
+[WRN][1638339037.9293351173] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1638339037.9294433594] /home/jerald/.antigen.zsh:1498
+[WRN][1638339037.9294433594] Replace hook: antigen-bundle-defer romkatv/powerlevel10k --btype=theme
+[WRN][1638339037.9295198917] /home/jerald/.antigen.zsh:1500
+[WRN][1638339037.9295198917] antigen-bundle-defer shortcircuited
+[LOG][1638339037.9296431541] /home/jerald/.antigen.zsh:1518
+[LOG][1638339037.9296431541] Return from hook antigen with 0
+[WRN][1638339037.9298596382] /home/jerald/.antigen.zsh:1462
+[WRN][1638339037.9298596382] Ignoring hook due to mode once: antigen-lock
+[WRN][1638339037.9299156666] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9299156666] Processing hooks: antigen-lock
+[WRN][1638339037.9299643040] /home/jerald/.antigen.zsh:1505
+[WRN][1638339037.9299643040] -antigen-hook-antigen apply
+[WRN][1638339037.9301066399] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9301066399] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1638339037.9301886559] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9301886559] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1638339037.9302620888] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9302620888] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1638339037.9303331375] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9303331375] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1638339037.9304273129] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9304273129] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1638339037.9304921627] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9304921627] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1638339037.9305510521] /home/jerald/.antigen.zsh:1487
+[WRN][1638339037.9305510521] Pre hook: antigen-apply-parallel
+[WRN][1638339037.9306092262] /home/jerald/.antigen.zsh:1744
+[WRN][1638339037.9306092262] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1638339037.9308023453] /home/jerald/.antigen.zsh:1487
+[WRN][1638339037.9308023453] Pre hook: antigen-apply-defer
+[WRN][1638339037.9308629036] /home/jerald/.antigen.zsh:1623
+[WRN][1638339037.9308629036] Defer pre-apply DEFER PRE-APPLY
+[LOG][1638339037.9310383797] /home/jerald/.antigen.zsh:1629
+[LOG][1638339037.9310383797] Processing deferred bundle: romkatv/powerlevel10k --btype=theme DEFER
+[WRN][1638339037.9311985970] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9311985970] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1638339037.9313073158] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9313073158] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1638339037.9313752651] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9313752651] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1638339037.9314305782] /home/jerald/.antigen.zsh:1487
+[WRN][1638339037.9314305782] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1638339037.9315264225] /home/jerald/.antigen.zsh:1498
+[WRN][1638339037.9315264225] Replace hook: antigen-bundle-parallel romkatv/powerlevel10k --btype=theme
+[TRA][1638339037.9315979481] /home/jerald/.zshrc:1748
+[TRA][1638339037.9315979481] antigen-bundle-parallel: romkatv/powerlevel10k --btype=theme PARALLEL
+[TRA][1638339037.9315979481] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638339037.9316864014] /home/jerald/.antigen.zsh:1509
+[WRN][1638339037.9316864014] Replaced hooked function.
+[LOG][1638339037.9317426682] /home/jerald/.antigen.zsh:1518
+[LOG][1638339037.9317426682] Return from hook antigen-bundle with 0
+[WRN][1638339037.9318609238] /home/jerald/.antigen.zsh:1498
+[WRN][1638339037.9318609238] Replace hook: antigen-apply-parallel-execute
+[WRN][1638339037.9319343567] /home/jerald/.antigen.zsh:1756
+[WRN][1638339037.9319343567] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1638339037.9320960045] /home/jerald/.antigen.zsh:1695
+[WRN][1638339037.9320960045] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1638339037.9321641922] /home/jerald/.antigen.zsh:1699
+[WRN][1638339037.9321641922] Gonna install in parallel 1 bundles. PARALLEL
+[WRN][1638339037.9322173595] /home/jerald/.antigen.zsh:1701
+[WRN][1638339037.9322173595] romkatv/powerlevel10k --btype=theme PARALLEL
+[WRN][1638339037.9329023361] /home/jerald/.antigen.zsh:1715
+[WRN][1638339037.9329023361] Bundle romkatv/powerlevel10k already cloned locally. PARALLEL
+[WRN][1638339037.9331579208] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9331579208] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1638339037.9332404137] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9332404137] Processing hooks: antigen-bundle-cached
+[WRN][1638339037.9333014488] /home/jerald/.antigen.zsh:1487
+[WRN][1638339037.9333014488] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1638339037.9333932400] /home/jerald/.antigen.zsh:1505
+[WRN][1638339037.9333932400] -antigen-hook-antigen-bundle romkatv/powerlevel10k --btype=theme
+[TRA][1638339037.9334623814] /home/jerald/.antigen.zsh:1438
+[TRA][1638339037.9334623814] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1638339037.9334623814] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638339037.9344215393] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9344215393] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1638339037.9345693588] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9345693588] Processing hooks: -antigen-load-env-cached
+[WRN][1638339037.9347181320] /home/jerald/.antigen.zsh:1498
+[WRN][1638339037.9347181320] Replace hook: -antigen-load-env-cached dir /home/jerald/.antigen/bundles/romkatv/powerlevel10k btype theme url https://github.com/romkatv/powerlevel10k.git loc / name romkatv/powerlevel10k make_local_clone true
+[WRN][1638339037.9348895550] /home/jerald/.antigen.zsh:1509
+[WRN][1638339037.9348895550] Replaced hooked function.
+[LOG][1638339037.9349524975] /home/jerald/.antigen.zsh:1518
+[LOG][1638339037.9349524975] Return from hook -antigen-load-env with 0
+[WRN][1638339037.9351425171] /home/jerald/.antigen.zsh:1469
+[WRN][1638339037.9351425171] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1638339037.9352157116] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9352157116] Processing hooks: -antigen-load-source-cached
+[WRN][1638339037.9352905750] /home/jerald/.antigen.zsh:1498
+[WRN][1638339037.9352905750] Replace hook: -antigen-load-source-cached /home/jerald/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[WRN][1638339037.9353768826] /home/jerald/.antigen.zsh:1509
+[WRN][1638339037.9353768826] Replaced hooked function.
+[LOG][1638339037.9354343414] /home/jerald/.antigen.zsh:1518
+[LOG][1638339037.9354343414] Return from hook -antigen-load-source with 0
+[LOG][1638339037.9355516434] /home/jerald/.antigen.zsh:1518
+[LOG][1638339037.9355516434] Return from hook antigen-bundle with 0
+[WRN][1638339037.9356372356] /home/jerald/.antigen.zsh:1739
+[WRN][1638339037.9356372356] Parallel install done PARALLEL
+[WRN][1638339037.9358947277] /home/jerald/.antigen.zsh:1462
+[WRN][1638339037.9358947277] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1638339037.9359734058] /home/jerald/.antigen.zsh:1462
+[WRN][1638339037.9359734058] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1638339037.9360458851] /home/jerald/.antigen.zsh:1462
+[WRN][1638339037.9360458851] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1638339037.9361159801] /home/jerald/.antigen.zsh:1462
+[WRN][1638339037.9361159801] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1638339037.9361820221] /home/jerald/.antigen.zsh:1484
+[WRN][1638339037.9361820221] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1638339037.9362485409] /home/jerald/.antigen.zsh:1505
+[WRN][1638339037.9362485409] -antigen-hook-antigen-apply 
+[LOG][1638339037.9363090992] /home/jerald/.antigen.zsh:1438
+[LOG][1638339037.9363090992] Called antigen-apply
+[TRA][1638339037.9363615513] /home/jerald/.antigen.zsh:1439
+[TRA][1638339037.9363615513] Gonna create compdump file @ apply COMPDUMP
+[TRA][1638339037.9363615513] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[LOG][1638339037.9545562267] /home/jerald/.antigen.zsh:1518
+[LOG][1638339037.9545562267] Return from hook antigen-apply with 0
+[WRN][1638339037.9547269344] /home/jerald/.antigen.zsh:1509
+[WRN][1638339037.9547269344] Replaced hooked function.
+[WRN][1638339037.9547877312] /home/jerald/.antigen.zsh:1513
+[WRN][1638339037.9547877312] Post hook: antigen-apply-lock
+[WRN][1638339037.9548339844] /home/jerald/.antigen.zsh:1676
+[WRN][1638339037.9548339844] Freeing antigen-lock file at /home/jerald/.antigen/.lock
+[WRN][1638339037.9559292793] /home/jerald/.antigen.zsh:1513
+[WRN][1638339037.9559292793] Post hook: antigen-apply-cached
+[LOG][1638339037.9560298920] /home/jerald/.antigen.zsh:1893
+[LOG][1638339037.9560298920] TRACE: /home/jerald/.antigen.zsh:1514 /home/jerald/.antigen.zsh:1441 /home/jerald/.antigen.zsh:1447 /home/jerald/.antigen.zsh:1506 /home/jerald/.antigen.zsh:1441 /home/jerald/.zshrc:29 zsh:0
+[LOG][1638339037.9561395645] /home/jerald/.antigen.zsh:1787
+[LOG][1638339037.9561395645] Gonna generate cache for /home/jerald/.antigen/bundles/romkatv/powerlevel10k// /home/jerald/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[LOG][1638339037.9653766155] /home/jerald/.antigen.zsh:1844
+[LOG][1638339037.9653766155] CHECK_FILES /home/jerald/.zshrc /home/jerald/.zshrc
+[LOG][1638339038.4428105354] /home/jerald/.antigen.zsh:1518
+[LOG][1638339038.4428105354] Return from hook antigen-apply with 0
+[LOG][1638339038.4429121017] /home/jerald/.antigen.zsh:1518
+[LOG][1638339038.4429121017] Return from hook antigen with 0
+[WRN][1638340366.1383702755] /home/jerald/.antigen.zsh:266
+[WRN][1638340366.1383702755] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1638340366.1385962963] /home/jerald/.antigen.zsh:475
+[TRA][1638340366.1385962963] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1638340366.1385962963] TRACE
+-antigen-env-setup
+/home/jerald/.antigen.zsh
+.zshrc
+[TRA][1638340366.1714820862] /home/jerald/.antigen.zsh:808
+[TRA][1638340366.1714820862] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1638340366.1714820862] TRACE
+antigen-bundle
+-antigen-use-oh-my-zsh
+antigen-use
+antigen
+.zshrc
+[TRA][1638340367.5052654743] /home/jerald/.antigen.zsh:808
+[TRA][1638340367.5052654743] Called antigen-bundle with marlonrichert/zsh-autocomplete BUNDLE
+[TRA][1638340367.5052654743] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1638340367.8302137852] /home/jerald/.antigen.zsh:861
+[TRA][1638340367.8302137852] -antigen-bundle-instal failed to clone https://github.com/marlonrichert/zsh-autocomplete.git BUNDLE
+[TRA][1638340367.8302137852] TRACE
+-antigen-bundle-install
+antigen-bundle
+antigen
+.zshrc
+[TRA][1638340367.8309624195] /home/jerald/.antigen.zsh:808
+[TRA][1638340367.8309624195] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1638340367.8309624195] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1638340368.5605795383] /home/jerald/.antigen.zsh:808
+[TRA][1638340368.5605795383] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1638340368.5605795383] TRACE
+antigen-bundle
+antigen-theme
+antigen
+.zshrc
+[LOG][1638340368.5619065762] /home/jerald/.antigen.zsh:785
+[LOG][1638340368.5619065762] Called antigen-apply
+[TRA][1638340368.5620477200] /home/jerald/.antigen.zsh:789
+[TRA][1638340368.5620477200] Gonna create compdump file @ apply COMPDUMP
+[TRA][1638340368.5620477200] TRACE
+antigen-apply
+antigen
+.zshrc
+[WRN][1638508386.1454639435] /home/jerald/.antigen.zsh:266
+[WRN][1638508386.1454639435] -antigen-interactive-mode: filecode:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638508386.1459224224] /home/jerald/.antigen.zsh:1572
+[WRN][1638508386.1459224224] -antigen-lock-init return code was 0
+[LOG][1638508386.1459879875] /home/jerald/.antigen.zsh:1574
+[LOG][1638508386.1459879875] LOADED EXTENSION lock EXT
+[WRN][1638508386.1480925083] /home/jerald/.antigen.zsh:1684
+[WRN][1638508386.1480925083] Init parallel extension PARALLEL
+[WRN][1638508386.1482543945] /home/jerald/.antigen.zsh:266
+[WRN][1638508386.1482543945] -antigen-interactive-mode: filecode:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638508386.1484012604] /home/jerald/.antigen.zsh:1572
+[WRN][1638508386.1484012604] -antigen-parallel-init return code was 0
+[LOG][1638508386.1484906673] /home/jerald/.antigen.zsh:1574
+[LOG][1638508386.1484906673] LOADED EXTENSION parallel EXT
+[WRN][1638508386.1485824585] /home/jerald/.antigen.zsh:1692
+[WRN][1638508386.1485824585] Exec parallel extension PARALLEL
+[WRN][1638508386.1494858265] /home/jerald/.antigen.zsh:266
+[WRN][1638508386.1494858265] -antigen-interactive-mode: filecode:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638508386.1496262550] /home/jerald/.antigen.zsh:1572
+[WRN][1638508386.1496262550] -antigen-defer-init return code was 0
+[LOG][1638508386.1497168541] /home/jerald/.antigen.zsh:1574
+[LOG][1638508386.1497168541] LOADED EXTENSION defer EXT
+[WRN][1638508386.1511023045] /home/jerald/.antigen.zsh:266
+[WRN][1638508386.1511023045] -antigen-interactive-mode: filecode:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1638508386.1514890194] /home/jerald/.antigen.zsh:1572
+[WRN][1638508386.1514890194] -antigen-cache-init return code was 0
+[LOG][1638508386.1515822411] /home/jerald/.antigen.zsh:1574
+[LOG][1638508386.1515822411] LOADED EXTENSION cache EXT
+[WRN][1638508386.1721322536] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1721322536] Updated meta: target antigen mode once type pre called 1
+[WRN][1638508386.1722083092] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1722083092] Processing hooks: antigen-lock
+[WRN][1638508386.1722476482] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1722476482] Pre hook: antigen-lock use oh-my-zsh
+[LOG][1638508386.1722862720] /home/jerald/.antigen.zsh:1658
+[LOG][1638508386.1722862720] antigen-lock called
+[WRN][1638508386.1723260880] /home/jerald/.antigen.zsh:1669
+[WRN][1638508386.1723260880] Creating antigen-lock file at /home/jerald/.antigen/.lock
+[WRN][1638508386.1739051342] /home/jerald/.antigen.zsh:1505
+[WRN][1638508386.1739051342] -antigen-hook-antigen use oh-my-zsh
+[WRN][1638508386.1758797169] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1758797169] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1638508386.1759951115] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1759951115] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1638508386.1760499477] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1760499477] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1638508386.1760904789] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1760904789] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1638508386.1761817932] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1761817932] Replace hook: antigen-bundle-defer --loc=lib
+[WRN][1638508386.1762554646] /home/jerald/.antigen.zsh:1500
+[WRN][1638508386.1762554646] antigen-bundle-defer shortcircuited
+[LOG][1638508386.1763877869] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1763877869] Return from hook antigen with 0
+[WRN][1638508386.1765174866] /home/jerald/.antigen.zsh:1462
+[WRN][1638508386.1765174866] Ignoring hook due to mode once: antigen-lock
+[WRN][1638508386.1765582561] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1765582561] Processing hooks: antigen-lock
+[WRN][1638508386.1766109467] /home/jerald/.antigen.zsh:1505
+[WRN][1638508386.1766109467] -antigen-hook-antigen bundle marlonrichert/zsh-autocomplete
+[WRN][1638508386.1767325401] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1767325401] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1638508386.1768028736] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1768028736] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1638508386.1768457890] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1768457890] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1638508386.1768808365] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1768808365] Pre hook: antigen-bundle-cached marlonrichert/zsh-autocomplete
+[WRN][1638508386.1769428253] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1769428253] Replace hook: antigen-bundle-defer marlonrichert/zsh-autocomplete
+[WRN][1638508386.1769938469] /home/jerald/.antigen.zsh:1500
+[WRN][1638508386.1769938469] antigen-bundle-defer shortcircuited
+[LOG][1638508386.1770601273] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1770601273] Return from hook antigen with 0
+[WRN][1638508386.1771588326] /home/jerald/.antigen.zsh:1462
+[WRN][1638508386.1771588326] Ignoring hook due to mode once: antigen-lock
+[WRN][1638508386.1771945953] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1771945953] Processing hooks: antigen-lock
+[WRN][1638508386.1772518158] /home/jerald/.antigen.zsh:1505
+[WRN][1638508386.1772518158] -antigen-hook-antigen bundle zsh-users/zsh-syntax-highlighting
+[WRN][1638508386.1773736477] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1773736477] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1638508386.1774399281] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1774399281] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1638508386.1774818897] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1774818897] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1638508386.1775166988] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1775166988] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1638508386.1775772572] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1775772572] Replace hook: antigen-bundle-defer zsh-users/zsh-syntax-highlighting
+[WRN][1638508386.1776273251] /home/jerald/.antigen.zsh:1500
+[WRN][1638508386.1776273251] antigen-bundle-defer shortcircuited
+[LOG][1638508386.1776909828] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1776909828] Return from hook antigen with 0
+[WRN][1638508386.1777865887] /home/jerald/.antigen.zsh:1462
+[WRN][1638508386.1777865887] Ignoring hook due to mode once: antigen-lock
+[WRN][1638508386.1778235435] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1778235435] Processing hooks: antigen-lock
+[WRN][1638508386.1778628826] /home/jerald/.antigen.zsh:1505
+[WRN][1638508386.1778628826] -antigen-hook-antigen theme romkatv/powerlevel10k
+[WRN][1638508386.1836540699] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1836540699] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1638508386.1838223934] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1838223934] Updated meta: target antigen-bundle mode repeat type pre called 4
+[WRN][1638508386.1839056015] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1839056015] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1638508386.1839635372] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1839635372] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1638508386.1840524673] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1840524673] Replace hook: antigen-bundle-defer romkatv/powerlevel10k --btype=theme
+[WRN][1638508386.1841199398] /home/jerald/.antigen.zsh:1500
+[WRN][1638508386.1841199398] antigen-bundle-defer shortcircuited
+[LOG][1638508386.1842386723] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1842386723] Return from hook antigen with 0
+[WRN][1638508386.1844050884] /home/jerald/.antigen.zsh:1462
+[WRN][1638508386.1844050884] Ignoring hook due to mode once: antigen-lock
+[WRN][1638508386.1844677925] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1844677925] Processing hooks: antigen-lock
+[WRN][1638508386.1845252514] /home/jerald/.antigen.zsh:1505
+[WRN][1638508386.1845252514] -antigen-hook-antigen apply
+[WRN][1638508386.1846778393] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1846778393] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1638508386.1847658157] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1847658157] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1638508386.1848440170] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1848440170] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1638508386.1849193573] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1849193573] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1638508386.1849911213] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1849911213] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1638508386.1850414276] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1850414276] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1638508386.1850976944] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1850976944] Pre hook: antigen-apply-parallel
+[WRN][1638508386.1851682663] /home/jerald/.antigen.zsh:1744
+[WRN][1638508386.1851682663] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1638508386.1853072643] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1853072643] Pre hook: antigen-apply-defer
+[WRN][1638508386.1853537560] /home/jerald/.antigen.zsh:1623
+[WRN][1638508386.1853537560] Defer pre-apply DEFER PRE-APPLY
+[LOG][1638508386.1854979992] /home/jerald/.antigen.zsh:1629
+[LOG][1638508386.1854979992] Processing deferred bundle: --loc=lib DEFER
+[WRN][1638508386.1856188774] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1856188774] Updated meta: target antigen-bundle mode repeat type pre called 5
+[WRN][1638508386.1857013702] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1857013702] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1638508386.1857531071] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1857531071] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1638508386.1857943535] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1857943535] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1638508386.1858656406] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1858656406] Replace hook: antigen-bundle-parallel --loc=lib
+[TRA][1638508386.1859166622] /home/jerald/.zshrc:1748
+[TRA][1638508386.1859166622] antigen-bundle-parallel: --loc=lib PARALLEL
+[TRA][1638508386.1859166622] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508386.1859848499] /home/jerald/.antigen.zsh:1509
+[WRN][1638508386.1859848499] Replaced hooked function.
+[LOG][1638508386.1860268116] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1860268116] Return from hook antigen-bundle with 0
+[LOG][1638508386.1860857010] /home/jerald/.antigen.zsh:1629
+[LOG][1638508386.1860857010] Processing deferred bundle: marlonrichert/zsh-autocomplete DEFER
+[WRN][1638508386.1861951351] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1861951351] Updated meta: target antigen-bundle mode repeat type pre called 6
+[WRN][1638508386.1862707138] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1862707138] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1638508386.1863205433] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1863205433] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1638508386.1863610744] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1863610744] Pre hook: antigen-bundle-cached marlonrichert/zsh-autocomplete
+[WRN][1638508386.1864390373] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1864390373] Replace hook: antigen-bundle-parallel marlonrichert/zsh-autocomplete
+[TRA][1638508386.1864874363] /home/jerald/.zshrc:1748
+[TRA][1638508386.1864874363] antigen-bundle-parallel: marlonrichert/zsh-autocomplete PARALLEL
+[TRA][1638508386.1864874363] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508386.1865479946] /home/jerald/.antigen.zsh:1509
+[WRN][1638508386.1865479946] Replaced hooked function.
+[LOG][1638508386.1865890026] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1865890026] Return from hook antigen-bundle with 0
+[LOG][1638508386.1866476536] /home/jerald/.antigen.zsh:1629
+[LOG][1638508386.1866476536] Processing deferred bundle: zsh-users/zsh-syntax-highlighting DEFER
+[WRN][1638508386.1867549419] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1867549419] Updated meta: target antigen-bundle mode repeat type pre called 7
+[WRN][1638508386.1868288517] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1868288517] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1638508386.1868774891] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1868774891] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1638508386.1869173050] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1869173050] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1638508386.1869874001] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1869874001] Replace hook: antigen-bundle-parallel zsh-users/zsh-syntax-highlighting
+[TRA][1638508386.1870331764] /home/jerald/.zshrc:1748
+[TRA][1638508386.1870331764] antigen-bundle-parallel: zsh-users/zsh-syntax-highlighting PARALLEL
+[TRA][1638508386.1870331764] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508386.1870934963] /home/jerald/.antigen.zsh:1509
+[WRN][1638508386.1870934963] Replaced hooked function.
+[LOG][1638508386.1871335506] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1871335506] Return from hook antigen-bundle with 0
+[LOG][1638508386.1871902943] /home/jerald/.antigen.zsh:1629
+[LOG][1638508386.1871902943] Processing deferred bundle: romkatv/powerlevel10k --btype=theme DEFER
+[WRN][1638508386.1873290539] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1873290539] Updated meta: target antigen-bundle mode repeat type pre called 8
+[WRN][1638508386.1874172688] /home/jerald/.antigen.zsh:1469
+[WRN][1638508386.1874172688] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1638508386.1874566078] /home/jerald/.antigen.zsh:1484
+[WRN][1638508386.1874566078] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1638508386.1874887943] /home/jerald/.antigen.zsh:1487
+[WRN][1638508386.1874887943] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1638508386.1875441074] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1875441074] Replace hook: antigen-bundle-parallel romkatv/powerlevel10k --btype=theme
+[TRA][1638508386.1875805855] /home/jerald/.zshrc:1748
+[TRA][1638508386.1875805855] antigen-bundle-parallel: romkatv/powerlevel10k --btype=theme PARALLEL
+[TRA][1638508386.1875805855] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508386.1876282692] /home/jerald/.antigen.zsh:1509
+[WRN][1638508386.1876282692] Replaced hooked function.
+[LOG][1638508386.1876606941] /home/jerald/.antigen.zsh:1518
+[LOG][1638508386.1876606941] Return from hook antigen-bundle with 0
+[WRN][1638508386.1877329350] /home/jerald/.antigen.zsh:1498
+[WRN][1638508386.1877329350] Replace hook: antigen-apply-parallel-execute
+[WRN][1638508386.1877689362] /home/jerald/.antigen.zsh:1756
+[WRN][1638508386.1877689362] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1638508386.1878721714] /home/jerald/.antigen.zsh:1695
+[WRN][1638508386.1878721714] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1638508386.1879122257] /home/jerald/.antigen.zsh:1699
+[WRN][1638508386.1879122257] Gonna install in parallel 4 bundles. PARALLEL
+[WRN][1638508386.1879436970] /home/jerald/.antigen.zsh:1701
+[WRN][1638508386.1879436970] --loc=lib marlonrichert/zsh-autocomplete zsh-users/zsh-syntax-highlighting romkatv/powerlevel10k --btype=theme PARALLEL
+[WRN][1638508386.1884272099] /home/jerald/.antigen.zsh:1715
+[WRN][1638508386.1884272099] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1638508386.1890776157] /home/jerald/.antigen.zsh:1708
+[WRN][1638508386.1890776157] Install in parallel marlonrichert/zsh-autocomplete. PARALLEL
+[WRN][1638508386.1898965836] /home/jerald/.antigen.zsh:1715
+[WRN][1638508386.1898965836] Bundle zsh-users/zsh-syntax-highlighting already cloned locally. PARALLEL
+[WRN][1638508386.1903691292] /home/jerald/.antigen.zsh:1715
+[WRN][1638508386.1903691292] Bundle romkatv/powerlevel10k already cloned locally. PARALLEL
+[WRN][1638508387.7313454151] /home/jerald/.antigen.zsh:1469
+[WRN][1638508387.7313454151] Updated meta: target antigen-bundle mode repeat type pre called 9
+[WRN][1638508387.7315342426] /home/jerald/.antigen.zsh:1484
+[WRN][1638508387.7315342426] Processing hooks: antigen-bundle-cached
+[WRN][1638508387.7316408157] /home/jerald/.antigen.zsh:1487
+[WRN][1638508387.7316408157] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1638508387.7317826748] /home/jerald/.antigen.zsh:1505
+[WRN][1638508387.7317826748] -antigen-hook-antigen-bundle --loc=lib
+[TRA][1638508387.7318768501] /home/jerald/.antigen.zsh:1438
+[TRA][1638508387.7318768501] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1638508387.7318768501] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508387.7352955341] /home/jerald/.antigen.zsh:1469
+[WRN][1638508387.7352955341] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1638508387.7354619503] /home/jerald/.antigen.zsh:1484
+[WRN][1638508387.7354619503] Processing hooks: -antigen-load-env-cached
+[WRN][1638508387.7356140614] /home/jerald/.antigen.zsh:1498
+[WRN][1638508387.7356140614] Replace hook: -antigen-load-env-cached dir /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc lib name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1638508387.7358238697] /home/jerald/.antigen.zsh:1509
+[WRN][1638508387.7358238697] Replaced hooked function.
+[LOG][1638508387.7359120846] /home/jerald/.antigen.zsh:1518
+[LOG][1638508387.7359120846] Return from hook -antigen-load-env with 0
+[WRN][1638508387.7362816334] /home/jerald/.antigen.zsh:1469
+[WRN][1638508387.7362816334] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1638508387.7363896370] /home/jerald/.antigen.zsh:1484
+[WRN][1638508387.7363896370] Processing hooks: -antigen-load-source-cached
+[WRN][1638508387.7365326881] /home/jerald/.antigen.zsh:1498
+[WRN][1638508387.7365326881] Replace hook: -antigen-load-source-cached /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh
+[WRN][1638508387.7367801666] /home/jerald/.antigen.zsh:1509
+[WRN][1638508387.7367801666] Replaced hooked function.
+[LOG][1638508387.7368652821] /home/jerald/.antigen.zsh:1518
+[LOG][1638508387.7368652821] Return from hook -antigen-load-source with 0
+[LOG][1638508387.7370336056] /home/jerald/.antigen.zsh:1518
+[LOG][1638508387.7370336056] Return from hook antigen-bundle with 0
+[WRN][1638508387.7373189926] /home/jerald/.antigen.zsh:1469
+[WRN][1638508387.7373189926] Updated meta: target antigen-bundle mode repeat type pre called 10
+[WRN][1638508387.7374277115] /home/jerald/.antigen.zsh:1484
+[WRN][1638508387.7374277115] Processing hooks: antigen-bundle-cached
+[WRN][1638508387.7375066280] /home/jerald/.antigen.zsh:1487
+[WRN][1638508387.7375066280] Pre hook: antigen-bundle-cached marlonrichert/zsh-autocomplete
+[WRN][1638508387.7376298904] /home/jerald/.antigen.zsh:1505
+[WRN][1638508387.7376298904] -antigen-hook-antigen-bundle marlonrichert/zsh-autocomplete
+[TRA][1638508387.7377135754] /home/jerald/.antigen.zsh:1438
+[TRA][1638508387.7377135754] Called antigen-bundle with marlonrichert/zsh-autocomplete BUNDLE
+[TRA][1638508387.7377135754] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[TRA][1638508388.0116794109] /home/jerald/.antigen.zsh:861
+[TRA][1638508388.0116794109] -antigen-bundle-instal failed to clone https://github.com/marlonrichert/zsh-autocomplete.git BUNDLE
+[TRA][1638508388.0116794109] TRACE
+-antigen-bundle-install
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[LOG][1638508388.0120131969] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0120131969] Return from hook antigen-bundle with 1
+[WRN][1638508388.0123493671] /home/jerald/.antigen.zsh:1469
+[WRN][1638508388.0123493671] Updated meta: target antigen-bundle mode repeat type pre called 11
+[WRN][1638508388.0124633312] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0124633312] Processing hooks: antigen-bundle-cached
+[WRN][1638508388.0125455856] /home/jerald/.antigen.zsh:1487
+[WRN][1638508388.0125455856] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1638508388.0126833916] /home/jerald/.antigen.zsh:1505
+[WRN][1638508388.0126833916] -antigen-hook-antigen-bundle zsh-users/zsh-syntax-highlighting
+[TRA][1638508388.0127708912] /home/jerald/.antigen.zsh:1438
+[TRA][1638508388.0127708912] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1638508388.0127708912] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508388.0141580105] /home/jerald/.antigen.zsh:1469
+[WRN][1638508388.0141580105] Updated meta: target -antigen-load-env mode repeat type replace called 2
+[WRN][1638508388.0142958164] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0142958164] Processing hooks: -antigen-load-env-cached
+[WRN][1638508388.0144369602] /home/jerald/.antigen.zsh:1498
+[WRN][1638508388.0144369602] Replace hook: -antigen-load-env-cached dir /home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting btype plugin url https://github.com/zsh-users/zsh-syntax-highlighting.git loc / name zsh-users/zsh-syntax-highlighting make_local_clone true
+[WRN][1638508388.0146543980] /home/jerald/.antigen.zsh:1509
+[WRN][1638508388.0146543980] Replaced hooked function.
+[LOG][1638508388.0147397518] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0147397518] Return from hook -antigen-load-env with 0
+[WRN][1638508388.0149993896] /home/jerald/.antigen.zsh:1469
+[WRN][1638508388.0149993896] Updated meta: target -antigen-load-source mode repeat type replace called 2
+[WRN][1638508388.0151026249] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0151026249] Processing hooks: -antigen-load-source-cached
+[WRN][1638508388.0152072906] /home/jerald/.antigen.zsh:1498
+[WRN][1638508388.0152072906] Replace hook: -antigen-load-source-cached /home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh
+[WRN][1638508388.0153284073] /home/jerald/.antigen.zsh:1509
+[WRN][1638508388.0153284073] Replaced hooked function.
+[LOG][1638508388.0154073238] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0154073238] Return from hook -antigen-load-source with 0
+[LOG][1638508388.0155663490] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0155663490] Return from hook antigen-bundle with 0
+[WRN][1638508388.0158138275] /home/jerald/.antigen.zsh:1469
+[WRN][1638508388.0158138275] Updated meta: target antigen-bundle mode repeat type pre called 12
+[WRN][1638508388.0159115791] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0159115791] Processing hooks: antigen-bundle-cached
+[WRN][1638508388.0159873962] /home/jerald/.antigen.zsh:1487
+[WRN][1638508388.0159873962] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1638508388.0161092281] /home/jerald/.antigen.zsh:1505
+[WRN][1638508388.0161092281] -antigen-hook-antigen-bundle romkatv/powerlevel10k --btype=theme
+[TRA][1638508388.0161924362] /home/jerald/.antigen.zsh:1438
+[TRA][1638508388.0161924362] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1638508388.0161924362] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[WRN][1638508388.0173282623] /home/jerald/.antigen.zsh:1469
+[WRN][1638508388.0173282623] Updated meta: target -antigen-load-env mode repeat type replace called 3
+[WRN][1638508388.0174648762] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0174648762] Processing hooks: -antigen-load-env-cached
+[WRN][1638508388.0176007748] /home/jerald/.antigen.zsh:1498
+[WRN][1638508388.0176007748] Replace hook: -antigen-load-env-cached dir /home/jerald/.antigen/bundles/romkatv/powerlevel10k btype theme url https://github.com/romkatv/powerlevel10k.git loc / name romkatv/powerlevel10k make_local_clone true
+[WRN][1638508388.0177948475] /home/jerald/.antigen.zsh:1509
+[WRN][1638508388.0177948475] Replaced hooked function.
+[LOG][1638508388.0178775787] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0178775787] Return from hook -antigen-load-env with 0
+[WRN][1638508388.0181317329] /home/jerald/.antigen.zsh:1469
+[WRN][1638508388.0181317329] Updated meta: target -antigen-load-source mode repeat type replace called 3
+[WRN][1638508388.0182328224] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0182328224] Processing hooks: -antigen-load-source-cached
+[WRN][1638508388.0183384418] /home/jerald/.antigen.zsh:1498
+[WRN][1638508388.0183384418] Replace hook: -antigen-load-source-cached /home/jerald/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[WRN][1638508388.0184507370] /home/jerald/.antigen.zsh:1509
+[WRN][1638508388.0184507370] Replaced hooked function.
+[LOG][1638508388.0185306072] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0185306072] Return from hook -antigen-load-source with 0
+[LOG][1638508388.0186882019] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0186882019] Return from hook antigen-bundle with 0
+[WRN][1638508388.0188174248] /home/jerald/.antigen.zsh:1739
+[WRN][1638508388.0188174248] Parallel install done PARALLEL
+[WRN][1638508388.0191934109] /home/jerald/.antigen.zsh:1462
+[WRN][1638508388.0191934109] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1638508388.0193037987] /home/jerald/.antigen.zsh:1462
+[WRN][1638508388.0193037987] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1638508388.0193738937] /home/jerald/.antigen.zsh:1462
+[WRN][1638508388.0193738937] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1638508388.0194077492] /home/jerald/.antigen.zsh:1462
+[WRN][1638508388.0194077492] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1638508388.0194342136] /home/jerald/.antigen.zsh:1484
+[WRN][1638508388.0194342136] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1638508388.0194654465] /home/jerald/.antigen.zsh:1505
+[WRN][1638508388.0194654465] -antigen-hook-antigen-apply 
+[LOG][1638508388.0194940567] /home/jerald/.antigen.zsh:1438
+[LOG][1638508388.0194940567] Called antigen-apply
+[TRA][1638508388.0195186138] /home/jerald/.antigen.zsh:1439
+[TRA][1638508388.0195186138] Gonna create compdump file @ apply COMPDUMP
+[TRA][1638508388.0195186138] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/jerald/.zshrc
+[LOG][1638508388.0530815125] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.0530815125] Return from hook antigen-apply with 0
+[WRN][1638508388.0533828735] /home/jerald/.antigen.zsh:1509
+[WRN][1638508388.0533828735] Replaced hooked function.
+[WRN][1638508388.0534749031] /home/jerald/.antigen.zsh:1513
+[WRN][1638508388.0534749031] Post hook: antigen-apply-lock
+[WRN][1638508388.0535538197] /home/jerald/.antigen.zsh:1676
+[WRN][1638508388.0535538197] Freeing antigen-lock file at /home/jerald/.antigen/.lock
+[WRN][1638508388.0552768707] /home/jerald/.antigen.zsh:1513
+[WRN][1638508388.0552768707] Post hook: antigen-apply-cached
+[LOG][1638508388.0554349422] /home/jerald/.antigen.zsh:1893
+[LOG][1638508388.0554349422] TRACE: /home/jerald/.antigen.zsh:1514 /home/jerald/.antigen.zsh:1441 /home/jerald/.antigen.zsh:1447 /home/jerald/.antigen.zsh:1506 /home/jerald/.antigen.zsh:1441 /home/jerald/.zshrc:25 zsh:0
+[LOG][1638508388.0556476116] /home/jerald/.antigen.zsh:1787
+[LOG][1638508388.0556476116] Gonna generate cache for /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh /home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting// /home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh /home/jerald/.antigen/bundles/romkatv/powerlevel10k// /home/jerald/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[LOG][1638508388.0696721077] /home/jerald/.antigen.zsh:1844
+[LOG][1638508388.0696721077] CHECK_FILES /home/jerald/.zshrc /home/jerald/.zshrc
+[LOG][1638508388.1686561108] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.1686561108] Return from hook antigen-apply with 0
+[LOG][1638508388.1688604355] /home/jerald/.antigen.zsh:1518
+[LOG][1638508388.1688604355] Return from hook antigen with 0

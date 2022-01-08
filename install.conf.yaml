@@ -7,5 +7,9 @@
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
-
+    ~/.config/kitty: kitty
+    ~/.antigen: antigen
+    ~/.antigen.zsh: antigen.zsh
+    ~/.zshrc: zshrc
+    ~/.config/zellij: zellij
 
