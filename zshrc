@@ -30,9 +30,11 @@ antigen apply
 alias ll='ls -l'
 alias la='ls -A'
 alias lla='ls -lA'
-function lg () {
+function lsg () {
 	ls -la | grep $1
 }
+
+alias lv='lvim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
