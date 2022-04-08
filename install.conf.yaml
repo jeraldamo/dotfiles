@@ -13,4 +13,4 @@
     ~/.zshrc: zshrc
     ~/.config/zellij: zellij
     ~/.config/nvim: nvim
-
+    ~/.config/lvim: lvim
