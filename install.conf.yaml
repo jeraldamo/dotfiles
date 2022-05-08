@@ -2,9 +2,6 @@
 
 - link:
     ~/.profile: profile
-    ~/.bash_profile: bash_profile
-    ~/.bashrc: bashrc
-    ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
     ~/.config/kitty: kitty
@@ -13,4 +10,3 @@
     ~/.zshrc: zshrc
     ~/.config/zellij: zellij
     ~/.config/nvim: nvim
-    ~/.config/lvim: lvim
