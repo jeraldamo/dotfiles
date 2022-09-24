@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Thu Dec  2 11:13:08 PM CST 2021
+#-- GENERATED: Thu Sep 15 09:40:17 PM EDT 2022
 #-- ANTIGEN v2.2.2
 _antigen () {
 	local -a _1st_arguments
@@ -32,11 +32,11 @@ _antigen () {
 }
 antigen () {
   local MATCH MBEGIN MEND
-  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/home/jerald/antigen.zsh" && eval antigen $@;
+  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/home/jerald/.dotfiles/antigen.zsh" && eval antigen $@;
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/jerald/.antigen/bundles/romkatv/powerlevel10k) path+=(/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/jerald/.antigen/bundles/romkatv/powerlevel10k)
+fpath+=(/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib /home/jerald/.dotfiles/antigen/bundles/zsh-users/zsh-syntax-highlighting /home/jerald/.dotfiles/antigen/bundles/romkatv/powerlevel10k) path+=(/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib /home/jerald/.dotfiles/antigen/bundles/zsh-users/zsh-syntax-highlighting /home/jerald/.dotfiles/antigen/bundles/romkatv/powerlevel10k)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -d "/home/jerald/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -48,27 +48,27 @@ if [[ -n "/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh" ]]; then
   ZSH="/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh"; ZSH_CACHE_DIR="/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/cache/"
 fi
 #--- BUNDLES BEGIN
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
-source '/home/jerald/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
-source '/home/jerald/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
-source '/home/jerald/.antigen/bundles/romkatv/powerlevel10k/powerlevel10k.zsh-theme.antigen-compat';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
+source '/home/jerald/.dotfiles/antigen/bundles/romkatv/powerlevel10k/powerlevel10k.zsh-theme.antigen-compat';
 
 #--- BUNDLES END
 typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git lib plugin true' 'https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/romkatv/powerlevel10k.git / theme true')
