@@ -50,7 +50,7 @@ wk.register({
   ["w"] = { "<cmd>w!<cr>", "Save" },
   ["q"] = { "<cmd>qa<cr>", "Quit" },
   ["/"] = { "<cmd>lua require('Comment.api').toggle_current_linewise()<cr>", "Comment" },
-  ["c"] = { "<cmd>BufferKill<cr>", "Close Buffer" },
+  ["c"] = { "<cmd>enew <bar> bd #<cr>", "Close Buffer" },
   ["e"] = { "<cmd>Neotree filesystem reveal toggle dir=%:p:h<cr>", "Explorer" },
   C = {
     name = "Neovim Config",

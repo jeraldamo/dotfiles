@@ -1,5 +1,3 @@
-local path = require "nvim-lsp-installer.path"
-
 local opts = {
     -- A list of servers to automatically install if they're not already installed. Example: { "rust_analyzer", "sumneko_lua" }
     ensure_installed = {
@@ -47,7 +45,7 @@ local opts = {
     },
 
     -- The directory in which to install all servers.
-    install_root_dir = path.concat { vim.fn.stdpath "data", "lsp_servers" },
+    -- install_root_dir = path.concat { vim.fn.stdpath "data", "lsp_servers" },
 
     pip = {
         -- These args will be added to `pip install` calls. Note that setting extra args might impact intended behavior
