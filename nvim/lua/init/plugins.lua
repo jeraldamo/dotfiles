@@ -1,7 +1,7 @@
 return require('packer').startup(function(use)
   -- Themes
   use "lunarvim/colorschemes"
-
+  use 'rmehri01/onenord.nvim'
 
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
@@ -12,6 +12,8 @@ return require('packer').startup(function(use)
   use "kyazdani42/nvim-web-devicons"
   use "L3MON4D3/LuaSnip"
   use "tpope/vim-fugitive"
+  use 'famiu/bufdelete.nvim'
+  use 'kbenzie/vim-spirv'
 
   -- Notify
   use {

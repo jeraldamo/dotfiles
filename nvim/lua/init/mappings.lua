@@ -28,8 +28,10 @@ vim.api.nvim_set_keymap('n', '<S-u>', ':redo<cr>', {}) -- Easier to remember red
 
 -- Insert mode
 vim.api.nvim_set_keymap('i', 'jj', '<esc>', {}) -- exit insert mode without leaving home row
+vim.api.nvim_set_keymap('i', 'jk', '<esc>', {}) -- exit insert mode without leaving home row
 vim.api.nvim_set_keymap('i', '<A-j>', '<esc>:m .+1<cr>==gi', {}) -- Move current line/block down
 vim.api.nvim_set_keymap('i', '<A-k>', '<esc>:m .-2<cr>==gi', {}) -- Move current line/block up
+vim.api.nvim_set_keymap('i', '<C-v>', '<C-o>v', {}) -- enter visual mode from insert mode
 
 -- Visual mode
 vim.api.nvim_set_keymap('v', '<', '<gv', {}) -- Better indenting
@@ -49,8 +51,8 @@ wk.register({
   [";"] = { "<cmd>Alpha<cr>", "Dashboard" },
   ["w"] = { "<cmd>w!<cr>", "Save" },
   ["q"] = { "<cmd>qa<cr>", "Quit" },
-  ["/"] = { "<cmd>lua require('Comment.api').toggle_current_linewise()<cr>", "Comment" },
-  ["c"] = { "<cmd>enew <bar> bd #<cr>", "Close Buffer" },
+  ["/"] = { "<cmd>lua require('Comment.api').toggle.linewise()<cr>", "Comment" },
+  ["c"] = { "<cmd>Bdelete<cr>", "Close Buffer" },
   ["e"] = { "<cmd>Neotree filesystem reveal toggle dir=%:p:h<cr>", "Explorer" },
   C = {
     name = "Neovim Config",
@@ -92,6 +94,9 @@ wk.register({
       p = {
         name = "Peek",
         d = { "<cmd>lua require('goto-preview').goto_preview_definition()<cr>", "Definition" },
+        t = { "<cmd>lua require('goto-preview').goto_preview_type_definition()<cr>", "Type Definition" },
+        i = { "<cmd>lua require('goto-preview').goto_preview_implementation()<cr>", "Implementation" },
+        r = { "<cmd>lua require('goto-preview').goto_preview_references()<cr>", "References" },
       --   t = { "<cmd>lua require('lvim.lsp.peek').Peek('typeDefinition')<cr>", "Type Definition" },
       --   i = { "<cmd>lua require('lvim.lsp.peek').Peek('implementation')<cr>", "Implementation" },
       },
