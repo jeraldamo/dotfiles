@@ -32,6 +32,7 @@ vim.api.nvim_set_keymap('i', 'jk', '<esc>', {}) -- exit insert mode without leav
 vim.api.nvim_set_keymap('i', '<A-j>', '<esc>:m .+1<cr>==gi', {}) -- Move current line/block down
 vim.api.nvim_set_keymap('i', '<A-k>', '<esc>:m .-2<cr>==gi', {}) -- Move current line/block up
 vim.api.nvim_set_keymap('i', '<C-v>', '<C-o>v', {}) -- enter visual mode from insert mode
+vim.api.nvim_set_keymap('i', '<C-h>', '<cmd>lua vim.lsp.buf.signature_help()<cr>', {})
 
 -- Visual mode
 vim.api.nvim_set_keymap('v', '<', '<gv', {}) -- Better indenting
@@ -81,6 +82,7 @@ wk.register({
       -- f = { require("lvim.lsp.utils").format, "Format" },
       i = { "<cmd>LspInfo<cr>", "Info" },
       I = { "<cmd>LspInstallInfo<cr>", "Installer Info" },
+      h = { vim.lsp.buf.hover, "Hover"},
       j = {
         vim.diagnostic.goto_next,
         "Next Diagnostic",
@@ -91,6 +93,10 @@ wk.register({
       },
       -- l = { vim.lsp.codelens.run, "CodeLens Action" },
       l = { vim.diagnostic.open_float, "Line Diagnostics" },
+      g = {
+        name = "Goto",
+        d = { vim.lsp.buf.definition, "Definition"},
+      },
       p = {
         name = "Peek",
         d = { "<cmd>lua require('goto-preview').goto_preview_definition()<cr>", "Definition" },
