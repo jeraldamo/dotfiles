@@ -42,6 +42,9 @@ vim.api.nvim_set_keymap('v', '>', '>gv', {}) -- Better indenting
 vim.api.nvim_set_keymap('x', 'K', ":move '<-2<CR>gv-gv", {}) -- Move selected line/block up
 vim.api.nvim_set_keymap('x', 'J', ":move '>+1<CR>gv-gv", {}) -- Move selected line/block down
 
+-- Terminal mode
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>:ToggleTerm<cr>', {})
+
 
 -------------------------------------------------------------
 -- Which-key registrations
@@ -55,6 +58,7 @@ wk.register({
   ["/"] = { "<cmd>lua require('Comment.api').toggle.linewise()<cr>", "Comment" },
   ["c"] = { "<cmd>Bdelete<cr>", "Close Buffer" },
   ["e"] = { "<cmd>Neotree filesystem reveal toggle dir=%:p:h<cr>", "Explorer" },
+  ["t"] = { "<cmd>ToggleTerm size=20 dir=git_dir direction=horizontal<cr>", "Terminal" },
   C = {
     name = "Neovim Config",
     i = { "<cmd>e ~/.config/nvim/init.lua<cr>", "Edit init.lua"},
@@ -74,49 +78,51 @@ wk.register({
     ["1"] = "which_key_ignore", -- special label to hide it in the popup
     b = { function() print("bar") end, "Foobar" } -- you can also pass functions!
   },
-  l = {
-      name = "LSP",
-      a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
-      d = { "<cmd>Telescope diagnostics bufnr=0 theme=get_ivy<cr>", "Buffer Diagnostics" },
-      w = { "<cmd>Telescope diagnostics<cr>", "Diagnostics" },
-      -- f = { require("lvim.lsp.utils").format, "Format" },
-      i = { "<cmd>LspInfo<cr>", "Info" },
-      I = { "<cmd>LspInstallInfo<cr>", "Installer Info" },
-      h = { vim.lsp.buf.hover, "Hover"},
-      j = {
-        vim.diagnostic.goto_next,
-        "Next Diagnostic",
-      },
-      k = {
-        vim.diagnostic.goto_prev,
-        "Prev Diagnostic",
-      },
-      -- l = { vim.lsp.codelens.run, "CodeLens Action" },
-      l = { vim.diagnostic.open_float, "Line Diagnostics" },
-      g = {
-        name = "Goto",
-        d = { vim.lsp.buf.definition, "Definition"},
-      },
-      p = {
-        name = "Peek",
-        d = { "<cmd>lua require('goto-preview').goto_preview_definition()<cr>", "Definition" },
-        t = { "<cmd>lua require('goto-preview').goto_preview_type_definition()<cr>", "Type Definition" },
-        i = { "<cmd>lua require('goto-preview').goto_preview_implementation()<cr>", "Implementation" },
-        r = { "<cmd>lua require('goto-preview').goto_preview_references()<cr>", "References" },
-      --   t = { "<cmd>lua require('lvim.lsp.peek').Peek('typeDefinition')<cr>", "Type Definition" },
-      --   i = { "<cmd>lua require('lvim.lsp.peek').Peek('implementation')<cr>", "Implementation" },
-      },
-      q = { vim.diagnostic.setloclist, "Quickfix" },
-      r = { vim.lsp.buf.rename, "Rename" },
-      s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
-      S = {
-        "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
-        "Workspace Symbols",
-      },
-      e = { "<cmd>Telescope quickfix<cr>", "Telescope Quickfix" },
-    },
+  -- l = ,
 
 }, { mode = "n", prefix = "<leader>", nowait = true })
+
+wk.register({
+  name = "LSP",
+  a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
+  d = { "<cmd>Telescope diagnostics bufnr=0 theme=get_ivy<cr>", "Buffer Diagnostics" },
+  w = { "<cmd>Telescope diagnostics<cr>", "Diagnostics" },
+  -- f = { require("lvim.lsp.utils").format, "Format" },
+  i = { "<cmd>LspInfo<cr>", "Info" },
+  I = { "<cmd>LspInstallInfo<cr>", "Installer Info" },
+  h = { vim.lsp.buf.hover, "Hover"},
+  j = {
+    vim.diagnostic.goto_next,
+    "Next Diagnostic",
+  },
+  k = {
+    vim.diagnostic.goto_prev,
+    "Prev Diagnostic",
+  },
+  -- l = { vim.lsp.codelens.run, "CodeLens Action" },
+  l = { vim.diagnostic.open_float, "Line Diagnostics" },
+  g = {
+    name = "Goto",
+    d = { vim.lsp.buf.definition, "Definition"},
+  },
+  p = {
+    name = "Peek",
+    d = { "<cmd>lua require('goto-preview').goto_preview_definition()<cr>", "Definition" },
+    t = { "<cmd>lua require('goto-preview').goto_preview_type_definition()<cr>", "Type Definition" },
+    i = { "<cmd>lua require('goto-preview').goto_preview_implementation()<cr>", "Implementation" },
+    r = { "<cmd>lua require('goto-preview').goto_preview_references()<cr>", "References" },
+  --   t = { "<cmd>lua require('lvim.lsp.peek').Peek('typeDefinition')<cr>", "Type Definition" },
+  --   i = { "<cmd>lua require('lvim.lsp.peek').Peek('implementation')<cr>", "Implementation" },
+  },
+  q = { vim.diagnostic.setloclist, "Quickfix" },
+  r = { vim.lsp.buf.rename, "Rename" },
+  s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
+  S = {
+    "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
+    "Workspace Symbols",
+  },
+  e = { "<cmd>Telescope quickfix<cr>", "Telescope Quickfix" },
+  }, {mode = "n", prefix = "<space>", nowait = true })
 
 -- Insert mode
 wk.register({

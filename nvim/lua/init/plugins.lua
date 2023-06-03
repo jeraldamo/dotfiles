@@ -41,6 +41,7 @@ return require('packer').startup(function(use)
       require("config.treesitter")
     end,
   }
+  use 'nvim-treesitter/playground'
 
   -- Telescope
   use {
@@ -110,6 +111,14 @@ return require('packer').startup(function(use)
       "kyazdani42/nvim-web-devicons", -- not strictly required, but recommended
       "MunifTanjim/nui.nvim"
     }
+  }
+
+  use {
+    "akinsho/toggleterm.nvim",
+    tag = "*",
+    config = function()
+      require("toggleterm").setup()
+    end
   }
 
 

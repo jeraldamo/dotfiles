@@ -3,8 +3,12 @@ local log = require('log')
 
 local lsp_opts = {
   ["pyright"] = {},
-  ["rust_analyzer"] = {},
-  ["sumneko_lua"] = {},
+  ["rust_analyzer"] = {
+    -- diagnostics = {
+      -- disabled = "unresolved-proc-macro"
+    -- },
+  },
+  ["lua_ls"] = {},
   ["ltex"] = {},
 }
 

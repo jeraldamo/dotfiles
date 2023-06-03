@@ -1,68 +1,46 @@
 local log = require("structlog")
 
 log.configure({
-  NVIM = {
-    sinks = {
-      log.sinks.NvimNotify(
-        log.level.INFO,
-        {
+  my_logger = {
+    pipelines = {
+      {
+        level = log.level.INFO,
         processors = {
-          log.processors.Namer(),
+          log.processors.StackWriter({ "line", "file" }, { max_parents = 0, stack_level = 0 }),
+          log.processors.Timestamper("%H:%M:%S"),
         },
-        formatter = log.formatters.Format(--
+        formatter = log.formatters.FormatColorizer( --
+          "%s [%s] %s: %-30s",
+          { "timestamp", "level", "logger_name", "msg" },
+          { level = log.formatters.FormatColorizer.color_level() }
+        ),
+        sink = log.sinks.NvimNotify(),
+      },
+      {
+        level = log.level.WARN,
+        processors = {},
+        formatter = log.formatters.Format( --
           "%s",
           { "msg" },
           { blacklist = { "level", "logger_name" } }
         ),
-        params_map = { title = "logger_name" },
-      }),
-
-      log.sinks.NvimNotify(
-        log.level.WARN,
-        {
+        sink =  log.sinks.NvimNotify(),
+      },
+      {
+        level = log.level.TRACE,
         processors = {
-          log.processors.Namer(),
+          log.processors.StackWriter({ "line", "file" }, { max_parents = 3 }),
+          log.processors.Timestamper("%H:%M:%S"),
         },
-        formatter = log.formatters.Format(--
-          "%s",
-          { "msg" },
-          { blacklist = { "level", "logger_name" } }
+        formatter = log.formatters.Format( --
+          "%s [%s] %s: %-30s",
+          { "timestamp", "level", "logger_name", "msg" }
         ),
-        params_map = { title = "logger_name" },
-      }),
-
-      log.sinks.NvimNotify(
-        log.level.ERROR,
-        {
-        processors = {
-          log.processors.Namer(),
-        },
-        formatter = log.formatters.Format(--
-          "%s",
-          { "msg" },
-          { blacklist = { "level", "logger_name" } }
-        ),
-        params_map = { title = "logger_name" },
-      }),
-
-      -- log.sinks.File(
-      --   log.level.TRACE,
-      --   "./test.log",
-      --   {
-      --   processors = {
-      --     log.processors.Namer(),
-      --     log.processors.StackWriter({ "line", "file" }, { max_parents = 3 }),
-      --     log.processors.Timestamper("%H:%M:%S"),
-      --   },
-      --   formatter = log.formatters.Format(--
-      --     "%s [%s] %s: %-30s",
-      --     { "timestamp", "level", "logger_name", "msg" }
-      --   ),
-      -- }
-      -- ),
+        sink = log.sinks.File("./test.log"),
+      },
     },
   },
-  -- other_logger = {...}
 })
 
-return log.get_logger("NVIM")
+return log.get_logger("my_logger")
+
